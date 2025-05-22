@@ -2,6 +2,6 @@
   export let skill: string;
 </script>
 
-<span class="inline-block bg-gray-800 text-pink-300 rounded-full px-4 py-1 text-sm font-semibold shadow border border-pink-400/30">
+<span class="inline-block bg-gray-800 text-blue-300 rounded-full px-4 py-1 text-sm font-semibold shadow border border-blue-400/30">
   {skill}
 </span> 

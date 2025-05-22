@@ -26,9 +26,9 @@
       <!-- Socials -->
       <aside class="w-48 flex flex-col items-end justify-between p-6 bg-gray-800/80 border-l border-gray-700">
         <div class="flex flex-col gap-4 items-end">
-          <a href="#" class="text-gray-300 hover:text-pink-400 transition" aria-label="Twitter"><svg width="24" height="24" fill="currentColor"><circle cx="12" cy="12" r="10" /></svg></a>
-          <a href="#" class="text-gray-300 hover:text-pink-400 transition" aria-label="GitHub"><svg width="24" height="24" fill="currentColor"><rect x="4" y="4" width="16" height="16" rx="4" /></svg></a>
-          <a href="#" class="text-gray-300 hover:text-pink-400 transition" aria-label="LinkedIn"><svg width="24" height="24" fill="currentColor"><rect x="6" y="6" width="12" height="12" rx="2" /></svg></a>
+          <a href="#" class="text-gray-300 hover:text-pink-400 transition" aria-label="GitHub">github</a>
+          <a href="#" class="text-gray-300 hover:text-pink-400 transition" aria-label="GitHub">linkedin</a>
+          <a href="#" class="text-gray-300 hover:text-pink-400 transition" aria-label="GitHub">instagram</a>
         </div>
       </aside>
     </div>
