@@ -10,7 +10,7 @@
   <div class="w-full sm:max-w-5xl sm:rounded-3xl sm:shadow-2xl sm:bg-gray-900/90 sm:dark:bg-gray-900/90 sm:p-0 sm:overflow-hidden sm:flex sm:flex-col">
     <!-- Banner: only on sm and up -->
     <div class="hidden sm:flex h-48 w-full bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-700 items-end justify-start relative">
-      <img src="/banner.jpg" alt="Banner" class="absolute inset-0 w-full h-full object-cover opacity-40 pointer-events-none select-none" />
+      <img src="/banner.png" alt="Banner" class="absolute inset-0 w-full h-full object-cover opacity-40 pointer-events-none select-none" />
       <div class="z-10 p-6">
         <h1 class="text-3xl font-bold text-white drop-shadow-lg">My Portfolio</h1>
       </div>
