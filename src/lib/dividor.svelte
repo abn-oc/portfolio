@@ -1,0 +1,1 @@
+<hr class="border-t border-white opacity-50 w-[95vw] mx-auto my-8" />
