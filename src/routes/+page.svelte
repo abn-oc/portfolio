@@ -28,6 +28,7 @@
 				name="pname"
 				description="app i made"
 				tags={['skill1', 'skill2']}
+				image=""
 				Link=""
 				github=""
 			/>

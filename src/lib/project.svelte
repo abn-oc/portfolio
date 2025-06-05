@@ -1,7 +1,10 @@
 <script lang="ts">
+    import FaExternalLinkAlt from 'svelte-icons/fa/FaExternalLinkAlt.svelte'
+    import FaGithub from 'svelte-icons/fa/FaGithub.svelte';
 	export let name: String;
 	export let description: String;
 	export let tags: String[];
+    export let image: string;
     export let Link: string | null;
     export let github: string | null;
 </script>
