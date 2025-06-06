@@ -11,7 +11,7 @@
 </script>
 
 <div
-	class="flex w-1/4 flex-col gap-1 rounded-md border border-neutral-300 shadow-sm transition-shadow duration-100 hover:shadow-md"
+	class="flex sm:w-1/4 w-1/1 flex-col gap-1 rounded-md border border-neutral-300 shadow-sm transition-shadow duration-100 hover:shadow-md"
 >
 	<img src={image} alt={name} class="h-auto w-full object-cover rounded-t-md" />
 
