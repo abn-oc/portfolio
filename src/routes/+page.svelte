@@ -23,14 +23,14 @@
 	<div class="flex flex-col px-24">
 		<h2 class="text-2xl">Projects</h2>
 		<!-- projects -->
-		<div>
+		<div class="flex flex-row gap-4 mt-4">
 			<Project
-				name="pname"
-				description="app i made"
-				tags={['skill1', 'skill2']}
-				image=""
+				name="12 Beads"
+				description="Local two player Board game"
+				tags={['C++', 'Raylib']}
+				image="/12beads.png"
 				Link=""
-				github=""
+				github="https://github.com/abn-oc/12-Beads"
 			/>
 		</div>
 	</div>
