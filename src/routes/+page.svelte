@@ -36,7 +36,7 @@
 	<div class="flex flex-grow flex-col px-12 sm:px-24">
 		<h2 class="text-2xl">Projects</h2>
 		<!-- projects -->
-		<div class="mt-4 flex flex-row gap-4">
+		<div class="mt-4 flex flex-wrap sm:flex-row flex-col gap-4">
 			<Project
 				name="12 Beads"
 				description="Local two player Board game"
