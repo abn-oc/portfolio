@@ -14,7 +14,8 @@
 <div class="flex h-screen w-screen flex-col gap-8">
 	<!-- header -->
 	<div
-		class="flex h-auto w-full flex-col-reverse flex-wrap bg-blue-800 px-12 text-white sm:h-45 sm:flex-row sm:px-24"
+		class="flex h-auto w-full flex-col-reverse flex-wrap px-12 text-white sm:h-45 sm:flex-row sm:px-24 sm:overflow-hidden"
+		style="background: var(--header-bg);"
 	>
 		<div class="flex flex-col gap-4 py-8">
 			<div class="flex flex-row gap-2 items-center">
@@ -53,7 +54,8 @@
 	</div>
 	<!-- Footer -->
 	<div
-		class="flex flex-col justify-evenly gap-4 bg-blue-800 p-8 py-8 text-white sm:flex-row sm:gap-0 sm:p-4 sm:py-4"
+		class="flex flex-col justify-evenly gap-4 p-8 py-8 text-white sm:flex-row sm:gap-0 sm:p-4 sm:py-4"
+		style="background: var(--header-bg);"
 	>
 		<div class="flex flex-row items-center gap-4">
 			<div class="w-5"><FaRegEnvelope /></div>
@@ -78,6 +80,14 @@
 	:root {
 		--bg-color: #ffffff;
 		--text-color: #000000;
+		--header-bg: #1e40af; /* blue-800 */
+		--card-bg: #ffffff;
+		--card-border: #e5e7eb;
+		--card-text: #111827;
+		--card-text-secondary: #4b5563;
+		--social-bg: #f9fafb;
+		--social-text: #111827;
+		--social-hover: #e5e7eb;
 	}
 
 	:global(body) {
@@ -86,7 +96,15 @@
 	}
 
 	:global(body.dark) {
-		--bg-color: #000000;
+		--bg-color: #111827;
 		--text-color: #ffffff;
+		--header-bg: #1f2937;
+		--card-bg: #1f2937;
+		--card-border: #374151;
+		--card-text: #f9fafb;
+		--card-text-secondary: #d1d5db;
+		--social-bg: #374151;
+		--social-text: #f9fafb;
+		--social-hover: #4b5563;
 	}
 </style>
