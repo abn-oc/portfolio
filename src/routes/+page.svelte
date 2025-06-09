@@ -7,6 +7,7 @@
 	import FaPhoneAlt from 'svelte-icons/fa/FaPhoneAlt.svelte';
 	import FaRegEnvelope from 'svelte-icons/fa/FaRegEnvelope.svelte';
 	import { copyClipboard } from '$lib/copy.svelte';
+	import Toggle from '$lib/toggle.svelte';
 </script>
 
 <!-- screen -->
@@ -16,7 +17,10 @@
 		class="flex h-auto w-full flex-col-reverse flex-wrap bg-blue-800 px-12 text-white sm:h-45 sm:flex-row sm:px-24"
 	>
 		<div class="flex flex-col gap-4 py-8">
-			<h1 class="text-center text-3xl sm:text-left">Abdullah Ihtasham</h1>
+			<div class="flex flex-row gap-2 items-center">
+				<h1 class="text-center text-3xl sm:text-left">Abdullah Ihtasham</h1>
+				<Toggle />
+			</div>
 			<p class="text-md text-center sm:text-left">
 				A 2nd Year CS Student from FAST NUCES Lahore. Currently focusing on web dev.
 			</p>
@@ -36,7 +40,7 @@
 	<div class="flex flex-grow flex-col px-12 sm:px-24">
 		<h2 class="text-2xl">Projects</h2>
 		<!-- projects -->
-		<div class="mt-4 flex flex-wrap sm:flex-row flex-col gap-4">
+		<div class="mt-4 flex flex-col flex-wrap gap-4 sm:flex-row">
 			<Project
 				name="12 Beads"
 				description="Local two player Board game"
@@ -69,3 +73,20 @@
 		</div>
 	</div>
 </div>
+
+<style>
+	:root {
+		--bg-color: #ffffff;
+		--text-color: #000000;
+	}
+
+	:global(body) {
+		background: var(--bg-color);
+		color: var(--text-color);
+	}
+
+	:global(body.dark) {
+		--bg-color: #000000;
+		--text-color: #ffffff;
+	}
+</style>
