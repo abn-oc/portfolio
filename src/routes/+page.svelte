@@ -43,6 +43,14 @@
 		<!-- projects -->
 		<div class="mt-4 flex flex-col flex-wrap gap-4 sm:flex-row">
 			<Project
+				name="Watch Next"
+				description="WatchList + Reviews writing webapp"
+				tags={['Nextjs', 'Supabase', 'Shadcn']}
+				image="/watch-next.png"
+				Link="https://watch-next-drab.vercel.app/"
+				github="https://github.com/abn-oc/watch-next"
+			/>
+			<Project
 				name="12 Beads"
 				description="Local two player Board game"
 				tags={['C++', 'Raylib']}

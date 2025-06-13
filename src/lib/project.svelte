@@ -14,7 +14,7 @@
 	class="flex sm:w-1/4 w-1/1 flex-col gap-1 rounded-md border shadow-sm transition-shadow duration-100 hover:shadow-md"
 	style="background: var(--card-bg); border-color: var(--card-border);"
 >
-	<img src={image} alt={name} class="h-auto w-full object-cover rounded-t-md" />
+	<img src={image} alt={name} class="h-48 w-full object-cover rounded-t-md" />
 
 	<div class="flex flex-col gap-2 p-2 px-4">
 		<p class="text-xl font-semibold" style="color: var(--card-text);">{name}</p>
