@@ -47,7 +47,7 @@
 				description="WatchList + Reviews writing webapp"
 				tags={['Nextjs', 'Supabase', 'Shadcn']}
 				image="/watch-next.png"
-				Link="https://watch-next-drab.vercel.app/"
+				Link="https://watch-nextt.vercel.app/"
 				github="https://github.com/abn-oc/watch-next"
 			/>
 			<Project
